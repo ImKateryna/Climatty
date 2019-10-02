@@ -2,7 +2,7 @@
 
 # Climatty
 
-iOS App (Swift 5.1/Xcode 11) - Climatty App was build programmatically only, no storyboards. 
+iOS App (Swift 5.1/Xcode 11) - Climatty App was built programmatically, no storyboards. 
 
 ## What it does
 
@@ -17,5 +17,5 @@ Climatty is a location-aware weather app. It will detect your location and by us
 
 
 >This is a simple project for my GitHub. 
-Feel free to contact me in case you are intrested in work with me. [www.appngo.com.au](https://www.appngo.com.au/)
+Feel free to contact me in case you are interested in work with me. [www.appngo.com.au](https://www.appngo.com.au/)
 
