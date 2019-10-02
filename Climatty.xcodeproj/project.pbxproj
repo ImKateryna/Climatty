@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		265818092344626300110B9B /* ChangeCityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265818082344626300110B9B /* ChangeCityDelegate.swift */; };
+		2696D36C2341D44400EC78EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D36B2341D44400EC78EE /* AppDelegate.swift */; };
+		2696D3702341D44400EC78EE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D36F2341D44400EC78EE /* RootViewController.swift */; };
+		2696D3752341D44500EC78EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2696D3742341D44500EC78EE /* Assets.xcassets */; };
+		2696D3782341D44500EC78EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2696D3762341D44500EC78EE /* LaunchScreen.storyboard */; };
+		2696D3822341E98300EC78EE /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D3812341E98300EC78EE /* RootView.swift */; };
+		2696D384234224D600EC78EE /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D383234224D600EC78EE /* WeatherDataModel.swift */; };
+		2696D3862342FB4200EC78EE /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D3852342FB4200EC78EE /* CityViewController.swift */; };
+		2696D3882343118E00EC78EE /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D3872343118E00EC78EE /* CityView.swift */; };
+		3462292C5077679AE154D04A /* Pods_Climatty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F0EF55CA388161DE1ECFD /* Pods_Climatty.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16AF2C37F521D60F2A0C4917 /* Pods-Climatty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climatty.debug.xcconfig"; path = "Target Support Files/Pods-Climatty/Pods-Climatty.debug.xcconfig"; sourceTree = "<group>"; };
+		265818082344626300110B9B /* ChangeCityDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityDelegate.swift; sourceTree = "<group>"; };
+		2696D3682341D44400EC78EE /* Climatty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Climatty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2696D36B2341D44400EC78EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2696D36F2341D44400EC78EE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		2696D3742341D44500EC78EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2696D3772341D44500EC78EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2696D3792341D44500EC78EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2696D3812341E98300EC78EE /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		2696D383234224D600EC78EE /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		2696D3852342FB4200EC78EE /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		2696D3872343118E00EC78EE /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		BD57CCD5CD9EA9E83B59BADE /* Pods-Climatty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climatty.release.xcconfig"; path = "Target Support Files/Pods-Climatty/Pods-Climatty.release.xcconfig"; sourceTree = "<group>"; };
+		E02F0EF55CA388161DE1ECFD /* Pods_Climatty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Climatty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2696D3652341D44400EC78EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3462292C5077679AE154D04A /* Pods_Climatty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2696D35F2341D44400EC78EE = {
+			isa = PBXGroup;
+			children = (
+				2696D36A2341D44400EC78EE /* Climatty */,
+				2696D3692341D44400EC78EE /* Products */,
+				BBFB7589ED36A08C14557E2E /* Pods */,
+				B96E6192C4C5A66BFF899C06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2696D3692341D44400EC78EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2696D3682341D44400EC78EE /* Climatty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2696D36A2341D44400EC78EE /* Climatty */ = {
+			isa = PBXGroup;
+			children = (
+				2696D36B2341D44400EC78EE /* AppDelegate.swift */,
+				2696D3802341D45C00EC78EE /* Screens */,
+				2696D37F2341D45400EC78EE /* Resources */,
+				2696D3762341D44500EC78EE /* LaunchScreen.storyboard */,
+			);
+			path = Climatty;
+			sourceTree = "<group>";
+		};
+		2696D37F2341D45400EC78EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2696D3742341D44500EC78EE /* Assets.xcassets */,
+				2696D3792341D44500EC78EE /* Info.plist */,
+				2696D383234224D600EC78EE /* WeatherDataModel.swift */,
+				265818082344626300110B9B /* ChangeCityDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2696D3802341D45C00EC78EE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2696D3892343119700EC78EE /* Root */,
+				2696D38A234311A200EC78EE /* City */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2696D3892343119700EC78EE /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				2696D36F2341D44400EC78EE /* RootViewController.swift */,
+				2696D3812341E98300EC78EE /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		2696D38A234311A200EC78EE /* City */ = {
+			isa = PBXGroup;
+			children = (
+				2696D3852342FB4200EC78EE /* CityViewController.swift */,
+				2696D3872343118E00EC78EE /* CityView.swift */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		B96E6192C4C5A66BFF899C06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E02F0EF55CA388161DE1ECFD /* Pods_Climatty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBFB7589ED36A08C14557E2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16AF2C37F521D60F2A0C4917 /* Pods-Climatty.debug.xcconfig */,
+				BD57CCD5CD9EA9E83B59BADE /* Pods-Climatty.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2696D3672341D44400EC78EE /* Climatty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2696D37C2341D44500EC78EE /* Build configuration list for PBXNativeTarget "Climatty" */;
+			buildPhases = (
+				9BB07270E9A174D6336DB75C /* [CP] Check Pods Manifest.lock */,
+				2696D3642341D44400EC78EE /* Sources */,
+				2696D3652341D44400EC78EE /* Frameworks */,
+				2696D3662341D44400EC78EE /* Resources */,
+				2E172DA1CC99B71C895BF1EF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Climatty;
+			productName = Climatty;
+			productReference = 2696D3682341D44400EC78EE /* Climatty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2696D3602341D44400EC78EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Kateryna Tsysarenko";
+				TargetAttributes = {
+					2696D3672341D44400EC78EE = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 2696D3632341D44400EC78EE /* Build configuration list for PBXProject "Climatty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2696D35F2341D44400EC78EE;
+			productRefGroup = 2696D3692341D44400EC78EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2696D3672341D44400EC78EE /* Climatty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2696D3662341D44400EC78EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2696D3782341D44500EC78EE /* LaunchScreen.storyboard in Resources */,
+				2696D3752341D44500EC78EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E172DA1CC99B71C895BF1EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Climatty/Pods-Climatty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Climatty/Pods-Climatty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Climatty/Pods-Climatty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BB07270E9A174D6336DB75C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Climatty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2696D3642341D44400EC78EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265818092344626300110B9B /* ChangeCityDelegate.swift in Sources */,
+				2696D3882343118E00EC78EE /* CityView.swift in Sources */,
+				2696D384234224D600EC78EE /* WeatherDataModel.swift in Sources */,
+				2696D3702341D44400EC78EE /* RootViewController.swift in Sources */,
+				2696D36C2341D44400EC78EE /* AppDelegate.swift in Sources */,
+				2696D3862342FB4200EC78EE /* CityViewController.swift in Sources */,
+				2696D3822341E98300EC78EE /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2696D3762341D44500EC78EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2696D3772341D44500EC78EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2696D37A2341D44500EC78EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2696D37B2341D44500EC78EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2696D37D2341D44500EC78EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16AF2C37F521D60F2A0C4917 /* Pods-Climatty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Climatty/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katerynatsysarenko.Climatty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2696D37E2341D44500EC78EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD57CCD5CD9EA9E83B59BADE /* Pods-Climatty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Climatty/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katerynatsysarenko.Climatty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2696D3632341D44400EC78EE /* Build configuration list for PBXProject "Climatty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2696D37A2341D44500EC78EE /* Debug */,
+				2696D37B2341D44500EC78EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2696D37C2341D44500EC78EE /* Build configuration list for PBXNativeTarget "Climatty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2696D37D2341D44500EC78EE /* Debug */,
+				2696D37E2341D44500EC78EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2696D3602341D44400EC78EE /* Project object */;
+}
